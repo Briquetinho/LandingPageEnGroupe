@@ -190,7 +190,7 @@ img.logo {
 }
 
 .align {
-  margin-top: -8%;
+  margin-top: -11%;
 }
 
 .text-perso {
@@ -204,7 +204,7 @@ img.logo {
 .align2 {
     display:flex;
     flex-direction: column;
-    margin: -8% 0 0 8%;
+    margin: -11% 0 0 8%;
 }
 
 .text-muted {
@@ -217,4 +217,8 @@ img.logo {
 
 .button-signup {
   top: 50%;
+}
+
+.img-navbar {
+  size: 10%;
 }
