@@ -177,8 +177,7 @@ img.logo {
 
 .text-top {
     top: 10%;
-    text-shadow: 0 3px 10px #ffff00, 
-    1px 1px 0 black;
+    text-shadow: 1px 1px 0 black;
     bottom: auto;
     color: #66b7f4; 
 }
