@@ -30,6 +30,6 @@ ___
 
 >> J'allais oublier [voici le lien du site](https://obscure-gorge-96195.herokuapp.com/)
 
-[logo1]: /app/assets/images/facebook.png "facebook"
-[logo2]: /app/assets/images/instagram.png "instagram"
-[logo3]: /app/assets/images/twitter.png "twitter"
+[logo1]: /app/assets/images/logo1.png "facebook"
+[logo2]: /app/assets/images/logo2.png "instagram"
+[logo3]: /app/assets/images/logo3.png "twitter"
