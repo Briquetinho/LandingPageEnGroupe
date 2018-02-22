@@ -19,7 +19,7 @@
 			<ul class='navbar-nav px-3'>
 				<% if user_signed_in? %>
 				<li class='nav-item'>
-					<%= link_to "Déconnexion", destroy_user_session_path, { :class=>"nav-link" }, method: :delete %>
+					<%= link_to "Déconnexion", destroy_user_session_path, { :class=>"nav-link", method: :delete } %>
 				</li class='nav-item'>
 				<% else %>
 				<li>
