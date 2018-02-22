@@ -268,3 +268,38 @@ img.thp_logo {
   text-decoration: none;
   color: #f4ac1a;
 }
+
+.footer1 {
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #707070;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.center-footer {
+  margin-left: -8%;
+}
+
+.center-footer a {
+  color: white;
+}
+.center-footer a:hover {
+  text-decoration: none;
+  color: blue;
+}
+.link-footer a {
+  color: white;
+}
+
+.link-footer a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
