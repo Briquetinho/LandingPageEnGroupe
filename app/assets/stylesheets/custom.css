@@ -225,3 +225,46 @@ img.logo {
 img.thp_logo {
   max-width: 35px;
 }
+
+.background-image {
+  background-image: url('https://image.noelshack.com/fichiers/2018/08/4/1519332353-img-1167-pp800.jpg');
+  background-size: cover;
+  display: block;
+  filter: blur(5px);
+  box-shadow: inset 0 0 0 1000px rgba(80,80,80,.75);
+  -webkit-filter: blur(1px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+
+.index {
+  position: relative;
+  z-index: 2;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.titles {
+  text-align: center;
+  color: #25a2b7;
+}
+
+.redirection {
+  text-align: center;
+}
+
+.redirection a {
+  color: #25a2b7;
+}
+
+.redirection a:hover {
+  text-decoration: none;
+  color: #f4ac1a;
+}
