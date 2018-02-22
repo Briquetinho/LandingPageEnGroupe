@@ -61,3 +61,270 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 191ms (Views: 164.8ms | ActiveRecord: 1.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:00:00 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 335ms (Views: 327.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-22 13:00:10 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/shared/_links.html.erb (2.9ms)
+  Rendered /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/sessions/new.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 92ms (Views: 59.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:00:12 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/shared/_links.html.erb (1.0ms)
+  Rendered /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/registrations/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:00:50 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:01:49 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:05:44 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:06:37 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:08:26 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:10:23 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/triqueneaux/THP/jour32/LandingPageGroupe/app/views/home/index.html.erb:22: syntax error, unexpected ')', expecting =>
+...elete, { :class=>"nav-link" } );@output_buffer.safe_append='
+...                               ^
+/home/triqueneaux/THP/jour32/LandingPageGroupe/app/views/home/index.html.erb:24: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;				 else 
+         				     ^
+/home/triqueneaux/THP/jour32/LandingPageGroupe/app/views/home/index.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;				 end 
+         				    ^
+/home/triqueneaux/THP/jour32/LandingPageGroupe/app/views/home/index.html.erb:178: syntax error, unexpected keyword_ensure, expecting ')'
+/home/triqueneaux/THP/jour32/LandingPageGroupe/app/views/home/index.html.erb:180: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/home/index.html.erb:22: syntax error, unexpected ')', expecting =>
+app/views/home/index.html.erb:24: syntax error, unexpected keyword_else, expecting ')'
+app/views/home/index.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+app/views/home/index.html.erb:178: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/home/index.html.erb:180: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:10:45 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:10:54 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-22 13:11:04 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/shared/_links.html.erb (1.2ms)
+  Rendered /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/sessions/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-22 13:11:15 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/shared/_links.html.erb (0.9ms)
+  Rendered /home/triqueneaux/.rvm/gems/ruby-2.3.4/gems/devise-4.4.1/app/views/devise/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:14:07 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:14:23 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:24:58 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 317ms (Views: 309.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:25:09 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:25:32 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-22 13:25:44 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 101ms (Views: 52.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:25:47 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:27:34 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:27:50 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:28:13 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:28:29 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:29:01 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:29:57 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:49:50 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-22 13:50:00 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 63ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:50:04 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 79ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:51:36 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 50ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 13:58:16 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-22 13:58:21 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-22 13:58:24 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 43ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+

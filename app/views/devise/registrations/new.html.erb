@@ -1,0 +1,23 @@
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+<%= devise_error_messages! %>
+<div class="text-center mb-4">
+  <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Connexion</h1>
+</div>
+
+<div class="form-label-group">
+  <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  <label for="inputEmail">Email address</label>
+</div>
+
+<div class="form-label-group">
+  <%= f.password_field :password, autocomplete: "off" %>
+  <label for="inputPassword">Password</label>
+</div>
+
+<button class="btn btn-lg btn-primary btn-block" type="submit">Se connecter</button>
+
+<div>
+Déjà membre ? <%= render "devise/shared/links" %>
+</div>
+<% end %>
