@@ -3698,3 +3698,115 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 94ms (Views: 92.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-22 20:23:02 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_head.html.erb (720.9ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+Completed 200 OK in 753ms (Views: 742.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 20:25:58 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_head.html.erb (29.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 20:26:50 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_head.html.erb (33.6ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 20:27:09 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_head.html.erb (49.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 20:27:40 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_head.html.erb (40.9ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 20:28:33 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_head.html.erb (45.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 20:28:45 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_head.html.erb (37.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 20:28:53 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_head.html.erb (24.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 21:00:41 +0100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_head.html.erb (501.7ms)
+  Rendered layouts/_header.html.erb (10.0ms)
+Completed 200 OK in 533ms (Views: 522.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 21:01:04 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_head.html.erb (48.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 66ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 21:01:15 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_head.html.erb (64.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+

@@ -222,3 +222,7 @@ img.logo {
 .img-navbar {
   size: 10%;
 }
+
+img.thp_logo {
+  max-width: 35px;
+}
