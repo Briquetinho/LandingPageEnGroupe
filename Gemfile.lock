@@ -62,10 +62,19 @@ GEM
       railties (>= 4.1.0, < 5.2)
       responders
       warden (~> 1.2.3)
+    dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     erubi (1.7.0)
     execjs (2.7.0)
+    faraday (0.14.0)
+      multipart-post (>= 1.2, < 3)
     ffi (1.9.21)
     formatador (0.2.5)
+    gibbon (3.2.0)
+      faraday (>= 0.9.1)
+      multi_json (>= 1.11.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     guard (2.13.0)
@@ -110,6 +119,7 @@ GEM
       minitest (>= 5.0)
       ruby-progressbar
     multi_json (1.13.1)
+    multipart-post (2.0.0)
     nenv (0.3.0)
     nio4r (2.2.0)
     nokogiri (1.8.2)
@@ -216,6 +226,8 @@ DEPENDENCIES
   byebug (= 9.0.6)
   coffee-rails (= 4.2.2)
   devise
+  dotenv-rails
+  gibbon
   guard (= 2.13.0)
   guard-minitest (= 2.4.4)
   jbuilder (= 2.7.0)
