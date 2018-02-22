@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -170,4 +171,50 @@ body {
 img.logo {
   max-width: 35px;
   margin-left: 20%;
+  padding-right: 40%;
+  padding-top: 25%;
+}
+
+.text-top {
+    top: 10%;
+    text-shadow: 0 3px 10px #ffff00, 
+    1px 1px 0 black;
+    bottom: auto;
+    color: #66b7f4; 
+}
+
+.text-align {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.7em;
+}
+
+.align {
+  margin-top: -8%;
+}
+
+.text-perso {
+  margin: 20% 10% 21% 51%;
+}
+
+.img-border {
+  box-shadow: 1px 5px 10px #b2b2b2;
+}
+
+.align2 {
+    display:flex;
+    flex-direction: column;
+    margin: -8% 0 0 8%;
+}
+
+.text-muted {
+  font-size: 2.5em;
+}
+
+.lead {
+  padding-left: 2%;
+}
+
+.button-signup {
+  top: 50%;
 }
