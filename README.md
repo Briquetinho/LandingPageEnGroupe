@@ -1,4 +1,4 @@
-# Bienvenue sur notre projet du jour
+# ⚡️  Bienvenue sur notre projet du jour  ⚡️
 
 ## Dans ce README nous allons vous expliquer différents points de notre projet
 
@@ -6,7 +6,7 @@ ___
 
 ### Le choix du design :
 
-Le design de notre site à été très inspiré du schémà de la landing page parfaite disponible [ici](https://cdn-images-1.medium.com/max/2000/1*Omi3ID0uMPyhjBC591HAYg.jpeg) et du site de [thp](https://www.thehackingproject.org/). Nous avons reprit plusieurs images et témoignages du site de the hacking project. Nous avons suivit les conseils des différents articles fournis par Félix. Nous avons donc utilisé le [logo](https://cdn-images-1.medium.com/fit/c/200/200/1*jA8tdomUF7TSMCVtXyfejA.png) le thp, différents liens sous la forme d'images qui mènent aux pages thp sur![al text][logo1] les![alt text][logo2] réseaux sociaux![alt text][logo3], un carousel d'images qui représentent le plus la formation à nos yeux. Le choix des couleurs reste assez basique, quelques tons de gris pour la landing page, des boutons bleu pour l'inscription et la connexion (le bleu c'est la couleur de l'espoir !).
+Le design de notre site à été très inspiré du schémà de la landing page parfaite disponible [ici](https://cdn-images-1.medium.com/max/2000/1*Omi3ID0uMPyhjBC591HAYg.jpeg) et du site de [thp](https://www.thehackingproject.org/). Nous avons reprit plusieurs images et témoignages du site de the hacking project. Nous avons suivit les conseils des différents articles fournis par Félix. Nous avons donc utilisé le [logo](https://cdn-images-1.medium.com/fit/c/200/200/1*jA8tdomUF7TSMCVtXyfejA.png) le thp, différents liens sous la forme d'images qui mènent aux pages thp sur les réseaux sociaux, un carousel d'images qui représentent le plus la formation à nos yeux. Le choix des couleurs reste assez basique, quelques tons de gris pour la landing page, des boutons bleu pour l'inscription et la connexion (le bleu c'est la couleur de l'espoir !). 📊
 
 ### Acquisition :
 
@@ -28,7 +28,7 @@ Les pistes étant multiples nous pensons qu'il serait bien dans un premier temps
 
 ___
 
->> J'allais oublier [voici le lien du site](https://obscure-gorge-96195.herokuapp.com/)
+>> J'allais oublier [voici le lien du site](https://obscure-gorge-96195.herokuapp.com/) 🌀
 
 [logo1]: /app/assets/images/logo1.png "facebook"
 [logo2]: /app/assets/images/logo2.png "instagram"
