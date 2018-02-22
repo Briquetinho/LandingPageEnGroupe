@@ -14,7 +14,7 @@ Pour l'acquisition nous avons réutilisé le scrappeur que nous avions codé et 
 
 ### Métrics :
 
-Malheureusement nous ne sommes pas couvert de métrics, voici une [capture d'écran](https://image.noelshack.com/fichiers/2018/08/4/1519339183-capture-d-ecran-2018-02-22-a-23-37-54.png) qui montre le nombre de personne sur la page au moment où j'écris. 
+Malheureusement nous ne sommes pas couvert de métrics, voici quelquesca captures d'écran [ici](https://image.noelshack.com/fichiers/2018/08/4/1519339183-capture-d-ecran-2018-02-22-a-23-37-54.png), [ici](https://image.noelshack.com/fichiers/2018/08/5/1519341349-capture-d-ecran-2018-02-23-a-00-14-01.png) et [ici](https://image.noelshack.com/fichiers/2018/08/5/1519341351-capture-d-ecran-2018-02-23-a-00-14-12.png) qui montre le nombre de personne sur la page au moment où j'écris, la localisation des utilisateurs, l'heure à laquelle ils visitent le site ou encore l'objet utilisé pour aller sur le site. 
 
 ### Pistes d'amélioration :
 
