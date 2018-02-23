@@ -14,7 +14,7 @@ Pour l'acquisition nous avons réutilisé le scrappeur que nous avions codé et 
 
 Nous avons aussi codé un mailer avec mailchimp qui nous permet de créer une base de données composée des mails des utilisateurs tout en leur envoyant un mail de bienvenue. Une fenêtre pop-up apparait au bout de 5 secondes de présence sur la landing page, elle est composée d'une image d'un input recevant l'adresse mail de l'intéressé et un bouton de confirmation. Cette pop-up est manipulable depuis l'application [MailChimp](https://mailchimp.com/). 🐵 
 
-Notre 3 ème moyen d'acquisition (puisqu'il en faut trois) est un partage du site sur nos pages facebook optimisé avec opengraph !
+Notre 3 ème moyen d'acquisition (puisqu'il en faut trois) est un [partage](https://image.noelshack.com/fichiers/2018/08/5/1519382796-capture-d-ecran-2018-02-23-a-11-46-06.png) du site sur nos pages facebook optimisé avec opengraph !
 
 ### Métrics :
 
