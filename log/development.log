@@ -7247,3 +7247,51 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 122ms (Views: 113.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-23 02:32:34 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (14.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_head.html.erb (28.2ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_pop-up.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 100ms (Views: 73.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-23 02:32:36 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_head.html.erb (38.3ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_pop-up.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 82ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-23 02:32:39 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_head.html.erb (55.3ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_pop-up.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 136ms (Views: 133.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-23 02:32:52 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_head.html.erb (39.8ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_pop-up.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 80ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
