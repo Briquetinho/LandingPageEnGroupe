@@ -2,6 +2,7 @@
 <html>
 
 <%= render 'layouts/head' %>
+
 <body>
 	<%= render 'layouts/header' %>
 
@@ -9,6 +10,7 @@
 		<%= yield %>
 		<%= debug(params) if Rails.env.development? %>
 	</div>
+	<%= render 'layouts/pop-up' %>
 </body>
 <%= render 'layouts/footer' %>
 
