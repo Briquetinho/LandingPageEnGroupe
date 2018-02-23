@@ -12,11 +12,11 @@ Le design de notre site à été très inspiré du schéma de la landing page pa
 
 Pour l'acquisition nous avons réutilisé le scrappeur que nous avions codé et l'api gmail. Nous avons [mailé](https://image.noelshack.com/fichiers/2018/08/4/1519338501-capture-d-ecran-2018-02-22-a-23-26-39.png) les mairies du département de l'Essonne. Nos cibles sont donc les mairies (encore une fois), nous avons cherché au plus simple afin de nous concentrer sur le site en lui même.
 
-Nous avons aussi codé un mailer avec mailchimp qui nous permet de créer une base de données composée des mails des utilisateurs tout en leur envoyant un mail de bienvenue.
+Nous avons aussi codé un mailer avec mailchimp qui nous permet de créer une base de données composée des mails des utilisateurs tout en leur envoyant un mail de bienvenue. Une fenêtre pop-up apparait au bout de 5 secondes de présence sur la landing page, elle est composée d'une image d'un input recevant l'adresse mail de l'intéressé et un bouton de confirmation. Cette pop-up est manipulable depuis l'application [MailChimp](https://mailchimp.com/). 🐵 
 
 ### Métrics :
 
-Malheureusement nous ne sommes pas couvert de métrics, voici quelques captures d'écran [ici](https://image.noelshack.com/fichiers/2018/08/5/1519349820-capture-d-ecran-2018-02-23-a-02-35-47.png), [ici](https://image.noelshack.com/fichiers/2018/08/5/1519349823-capture-d-ecran-2018-02-23-a-02-36-03.png) et [ici](https://image.noelshack.com/fichiers/2018/08/5/1519349825-capture-d-ecran-2018-02-23-a-02-36-11.png) qui montre le nombre de personne sur la page au moment où j'écris, la localisation des utilisateurs, le nombre de sessions total, l'heure à laquelle ils visitent le site ou encore l'objet utilisé pour aller sur le site. 
+Malheureusement nous ne sommes pas couverts de stats de métrics mais voici quelques captures d'écran [ici](https://image.noelshack.com/fichiers/2018/08/5/1519349820-capture-d-ecran-2018-02-23-a-02-35-47.png), [ici](https://image.noelshack.com/fichiers/2018/08/5/1519349823-capture-d-ecran-2018-02-23-a-02-36-03.png) et [ici](https://image.noelshack.com/fichiers/2018/08/5/1519349825-capture-d-ecran-2018-02-23-a-02-36-11.png) qui montre le nombre de personne sur la page au moment où j'écris, la localisation des utilisateurs, le nombre de sessions total, l'heure à laquelle ils visitent le site ou encore l'objet utilisé pour aller sur le site. 
 
 ### Pistes d'amélioration :
 
